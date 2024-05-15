@@ -25,8 +25,9 @@ img {
 }
 
 .card {
-    background-color: white;
-    border: 1px solid #bacdd8;
+    background-color: black;
+    color: white;
+    border: 1px solid #100720;
     padding: 8px;
     border-radius: 12px;
 }
@@ -37,7 +38,8 @@ img {
     border-radius: 50px;
     font-size: 12px;
     font-weight: 600;
-    color: #788697;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.144);
 }
 
 .name {
@@ -57,9 +59,8 @@ button {
     padding: 12px 24px;
     border-radius: 50px;
     font-weight: 600;
-    color: #0077ff;
-    background-color: #e0efff;
-
+    color: black;
+    background-color: white;
      /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
 
      margin: 0 auto;
@@ -80,6 +81,6 @@ a {
 
 button:focus,
 button:hover{
-    background-color: #0077ff;
-    color: #e0efff;
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
 }
